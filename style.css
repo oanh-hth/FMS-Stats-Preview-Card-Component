@@ -19,6 +19,10 @@
     --line-height-h1: 2rem;
 }
 
+img {
+    max-width: 100%;
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -36,11 +40,11 @@ body {
     background-color: var(--bg-card);
     display: flex;
     flex-direction: column;
-    max-width: 1112px;
-    width: 90%;
+    width: min(69.375rem, 90vw);
     text-align: center;
     border-radius: 15px;
     margin-block: 5rem;
+    overflow: hidden;
 }
 
 h1 {
@@ -69,13 +73,12 @@ h1 + p {
 .card__img {
     order: 1;
     background-color: var(--color-violet);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
 }
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
     mix-blend-mode: multiply;
     object-fit: cover;
 }
@@ -108,7 +111,7 @@ li span {
     text-transform: uppercase;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
     :root {
         --fs-h1: 2.25rem;
         --line-height-h1: 2.75rem;
@@ -129,11 +132,10 @@ li span {
     }
 
     .card__info {
-        padding: 4.5rem;
+        padding: 4.4rem 4.5rem 3.69rem;
         text-align: left;
-        width: 50%;
+        width: 35.375rem;
         line-height: 1.6;
-        margin-right: 4rem;
     }
 
     .card__img {
@@ -142,7 +144,6 @@ li span {
     }
     img {
         object-fit: cover;
-        
     }
 
     ul {
