@@ -96,7 +96,6 @@ li {
     font-weight: 700;
     color: var(--color-white);
     line-height: 1.6;
-    text-transform: uppercase;
     font-size: 1.5rem;
 }
 
@@ -132,7 +131,7 @@ li span {
     }
 
     .card__info {
-        padding: 4.4rem 4.5rem 3.69rem;
+        padding: 4.4rem 6.81rem 3.69rem 4.5rem;
         text-align: left;
         width: 35.375rem;
         line-height: 1.6;
@@ -148,7 +147,13 @@ li span {
 
     ul {
         flex-direction: row;
-        justify-content: space-between;
+        gap: 3.94rem;
     }
 
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    img {
+        display: none;
+    }
 }
