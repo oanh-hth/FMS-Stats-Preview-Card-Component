@@ -42,7 +42,7 @@ body {
     flex-direction: column;
     width: min(69.375rem, 90vw);
     text-align: center;
-    border-radius: 15px;
+    border-radius: 0.5rem;
     margin-block: 5rem;
     overflow: hidden;
 }
