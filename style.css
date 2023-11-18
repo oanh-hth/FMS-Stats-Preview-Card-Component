@@ -95,7 +95,6 @@ ul {
 li {
     font-weight: 700;
     color: var(--color-white);
-    line-height: 1.6;
     font-size: 1.5rem;
 }
 
@@ -131,10 +130,9 @@ li span {
     }
 
     .card__info {
-        padding: 4.4rem 6.81rem 3.69rem 4.5rem;
+        padding: 4.44rem 6.81rem 3.69rem 4.5rem;
         text-align: left;
         width: 35.375rem;
-        line-height: 1.6;
     }
 
     .card__img {
